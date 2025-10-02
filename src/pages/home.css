@@ -1,0 +1,10 @@
+.home {
+  min-height: calc(100dvh - 9.9rem);
+  margin: 1.25rem 1rem;
+}
+
+.products_outer {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 15px;
+}

@@ -1,0 +1,88 @@
+.header {
+  background: #fff;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, .4);
+  padding: .75rem 1rem;
+}
+
+.header_content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_logo {
+  width: 100px;
+  overflow: hidden;
+}
+
+.main_logo img {
+  position: relative;
+  left: -68px;
+}
+
+.header_right {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 60%;
+}
+
+.search_box {
+  width: 45%;
+  position: relative;
+}
+
+.search_box .search_icon {
+  position: absolute;
+  top: .5rem;
+  right: 6px;
+}
+
+.header_right input[type='text'] {
+  width: 100%;
+  padding: .5rem 1.5rem .5rem 1rem;
+  outline: none;
+  border: 1px solid #cbcbcb;
+}
+
+.cart_login {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cart_login .cart_outer,
+.cart_login .login_outer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-left: 1rem;
+  cursor: pointer;
+  position: relative;
+  text-decoration: none;
+  color: inherit;
+  background: none;
+  outline: none;
+  border: none;
+}
+
+.cart_login .cart_outer svg,
+.cart_login .login_outer svg {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.cart_outer span {
+  background: #FF6161;
+  width: 1rem;
+  height: 1rem;
+  border-radius: 50%;
+  color: #fff;
+  position: absolute;
+  top: -11px;
+  left: 6px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 65%;
+}
